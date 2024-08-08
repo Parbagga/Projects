@@ -3,15 +3,15 @@ const EmailSubs = () => {
     // container
     <div className="flex items-center justify-center h-screen bg-zinc-700">
       {/* card */}
-      <div className=" bg-zinc-800 p-2 mx-6 rounded-2xl">
+      <div className=" bg-zinc-800 p-2 rounded-2xl">
         {/* flex container */}
 
-        <div className="flex flex-col md:flex-row rounded-l-xl">
+        <div className="flex items-center  flex-col md:flex-row rounded-l-xl">
           {/* image */}
           <img
             src="images/image.jpg"
             alt=""
-            className="object-cover rounded-xl h-80  md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hoverl:rounded-xl duration-200"
+            className="object-center rounded-xl h-80  md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hoverl:rounded-xl duration-200"
           />
 
           {/*content  */}
