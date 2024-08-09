@@ -1,6 +1,7 @@
 import "./App.css";
 import PasswordGenerator from "./Components/password/PasswordGenerator";
 import EmailSubs from "./Components/emailStyling/EmailSubs";
+import Footer from "./Components/footer practise/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     >
       <EmailSubs />
       <PasswordGenerator />
+      <Footer />
     </div>
   );
 }
